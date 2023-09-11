@@ -1,0 +1,144 @@
+/* definindo estilo da parte superior (título da página) */
+h1 {
+    text-align: center;
+    font-size: 70px; /* tamanho da fonte */
+    font-weight: 500; /* espessura da fonte */
+    background-image: linear-gradient(to left, #4a2c9e, #8852be); /* cor em degrade */
+    color: transparent; /* estilo transparente */
+    background-clip: text; /* area de fundo - Edge 12, Firefox 4, Safari 14, Chrome 1, IE 9, Opera 10*/
+    -webkit-background-clip: text; /* area de fundo - Chrome, Safari */
+}
+
+h2 {
+    border-bottom: 1.5px solid #e6e6e6; /* Borda inferior*/
+    color: #441fbe;
+    margin-top: 30px;
+}
+
+/*                              NAV-FOOTER                            */
+/* .style-nav-footer classe criada para compartilhar estilos entre nav e footer */
+.style-nav-footer {
+    border-top: 2px solid #4a2c9e; /* Borda superior*/
+    border-bottom: 1.5px solid #e6e6e6; /* Borda inferior*/
+    margin-bottom: 0px;
+    margin-bottom: 0px;
+}
+
+/* Estilizando a navegação */
+.style-nav-footer ul {
+    list-style-type: none; /* remove marcadores de lista */
+    padding: 0; /* remove preenchimento padrão */
+    justify-content: space-between; /* os itens da lista horizontal são distribuidos */
+    display: flex; /* necessário para que os itens se distribuam uniformemente */
+    width: 100%; /* largura total da ul */
+}
+
+/* estilizando os elementos de lista dentro do nav */
+.style-nav-footer ul li {
+    display: inline; /* coloca os item em uma lista um do lado do outro */
+    margin-right: 30px; /* espaçamento entre itens */
+}
+
+/* estilizando os links */
+.style-nav-footer ul li a {
+    text-decoration: none; /* remove a decoração de texto (sublinhado) dos links */
+    color: #441fbe; /* cor do texto dos links */
+    font-weight: bold; /* links em negrito */
+}
+
+/* brilho quando o mouse passa sobre os links */
+.style-nav-footer ul li a:hover {
+    background-color: #fff; /* cor de fundo ao passar o mouse */
+    color: #725ac3; /* cor do texto ao passar o mouse */
+}
+/*                              NAV-FOOTER                            */
+
+/*                              SECTION                               */
+/* estilizando os elementos de lista dentro do section */
+.style-section ul {
+    list-style-type: none; /* remove marcadores de lista */
+    padding: 0px 0; /* remove preenchimento padrão */
+    margin-top: auto;
+}
+
+.style-section ul li {
+    display:list-item; /* coloca os itens um abaixo do outro */
+    text-decoration: none; /* remove a decoração de texto (sublinhado) dos links */
+    padding: 0px; /* Adicione algum preenchimento vertical para espaçamento entre os itens do menu */
+}
+
+.style-section div {
+    display: flex; /* Use flexbox para organizar a imagem e a lista lado a lado */
+    align-items: flex-start; /* Centraliza verticalmente os elementos */
+    margin-bottom: 0px;
+    color: #3a3a3a;
+}
+
+.style-section p {
+    color: #3a3a3a;
+    margin-left: 20px;
+}
+
+.style-section ul img {
+    opacity: 80%;
+}
+
+.style-section div ul li {
+    list-style-type: none;
+    color: #3a3a3a; /* cor do texto dos links */
+    line-height: 20px;
+}
+
+.style-section ul li a{
+    text-decoration: none; /* remove a decoração de texto (sublinhado) dos links */
+    background-color: #fff; /* cor de fundo ao passar o mouse */
+    color: #441fbe; /* cor do texto ao passar o mouse */
+    font-weight: bold;
+}
+
+/* brilho quando o mouse passa sobre os links */
+.style-section ul li a:hover {
+    background-color: #fff; /* cor de fundo ao passar o mouse */
+    color: #725ac3; /* cor do texto ao passar o mouse */
+}
+
+.style-section ul li {
+    list-style-type: none;
+    color: #725ac3; /* cor do texto dos links */
+    margin-left: 20px;
+}
+
+.style-section ul li ul li {
+    list-style-type: none;
+    color: #3a3a3a; /* cor do texto dos links */
+}
+
+/*                              SECTION                               */
+
+/*                              ARTICLE                               */
+
+
+/*                              ARTICLE                               */
+.videos-class{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr); /* Cria três colunas de largura igual */
+    gap: 5px; /* Adiciona espaço entre as colunas e linhas */
+}
+  
+.video {
+    text-align: center; /* Centraliza o conteúdo horizontalmente */
+    border: 0px solid #ccc; /* Adiciona uma borda aos vídeos */
+    padding: 5px; /* Adiciona preenchimento ao redor dos vídeos */
+}
+  
+/* Estilo para legendas */
+.video p {
+    margin-top: 10px; /* Adiciona espaço acima das legendas */
+    text-align: left;
+    color: #3a3a3a;
+}
+
+
+
+
+
