@@ -9,6 +9,10 @@ h1 {
     -webkit-background-clip: text; /* area de fundo - Chrome, Safari */
 }
 
+.alterah1 {
+    color: blue;
+}
+
 h2 {
     border-bottom: 1.5px solid #e6e6e6; /* Borda inferior*/
     color: #441fbe;
@@ -137,7 +141,6 @@ h2 {
     text-align: left;
     color: #3a3a3a;
 }
-
 
 
 
